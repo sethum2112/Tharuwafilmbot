@@ -2,22 +2,18 @@ const os = require("os");
 const packageJson = require("./package.json"); // Get package details
 
 module.exports = {
-    BOTNAME:"© 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 💚",
-    OWNERNAME:"MR.RASHMIKA",
-    OWNERNUMBER:"94717775628",
+    BOTNAME:"© 𝚃𝙷𝙰𝚁𝚁𝚄𝚆𝙰 𝙱𝙾𝚈 💚",
+    OWNERNAME:"MR.𝚃𝙷𝙰𝚁𝚄𝚂𝙷𝙰",
+    OWNERNUMBER:"94762862143",
     FOOTER:`
-> QUEEN ANJU XPRO
-> Developed by Mr. Rashmika
-> GitHub Repository: github.com/Mrrashmika/QUEEN_ANJU_xPro
-Premium Version | Advanced Features | Secure & Reliable
-2025 QUEEN ANJU XPRO. All rights reserved.
+> 𝙵𝙸𝙻𝙼 𝚆𝙾𝚁𝙻𝙳
+> Developed by Mr. 𝚃𝙷𝙰𝚁𝚄𝚂𝙷𝙰
+> 𝙵𝙸𝙻𝙼 𝚆𝙾𝚁𝙻𝙳 | 𝚄𝙿𝙻𝙾𝙰𝙳 𝙱𝚈 𝚃𝙷𝙰𝚁𝚄𝚂𝙷𝙰.
     `.trim(),
 //====================menu=================================
     MENUMSG: function (pushname, runtime,config) {
         return `
-🧚‍♂️⃟🩵 © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 💚 🧚‍♂️⃟🩵
-✘◍ ꜱᴇʟᴇᴛᴇ ʏᴏᴜʀ ᴀᴅᴠᴇɴᴛᴜʀᴛ. 
-ᴛʜᴀɴᴋꜱ ꜰᴏʀ ᴜꜱɪɴɢ ʙᴏᴛ.
+🧚‍♂️⃟🩵 © 𝙏𝙃𝘼𝙍𝙐𝙒𝘼 𝘽𝙊𝙏 ❤️⚜.
 
 ┏━━━━❮ 📆 ᴛᴏ ᴅᴀʏ 📆❯━━━━
 ┃
@@ -36,7 +32,7 @@ Premium Version | Advanced Features | Secure & Reliable
 ┃📚 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : ${packageJson.version}
 ┃📝 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${os.platform()}
 ┃📟 𝙷𝚘𝚜𝚝 : ${os.hostname()}
-┃🤴𝙾𝚠𝚗𝚎𝚛 : ${config.OWNER_NAME}
+┃🤴𝙾𝚠𝚗𝚎𝚛 : ✭𝗧𝗛𝗔𝗥𝗨𝗦𝗛𝗔✭
 ┃🔊 𝙼𝚘𝚍𝚎 : ${config.MODE}
 ┃🍁 𝚄𝚙𝚝𝚒𝚖𝚎 : ${runtime(process.uptime())}
 ┃✨𝙼𝚎𝚖 : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(
@@ -44,7 +40,7 @@ Premium Version | Advanced Features | Secure & Reliable
       )}MB / ${Math.round(os.totalmem() / 1024 / 1024)}MB
 ┗━━━━━━━━━━━━━━━
 > Qᴜᴇᴇɴ ᴀɴᴊᴜ ᴍᴅ ᴄᴛᴇᴀᴛᴇ ʙʏ ᴍʀ ʀᴀꜱʜᴍɪᴋᴀ .....
-> © 𝐌𝐑 𝐑𝐀𝐒𝐇𝐌𝐈𝐊𝐀 𝐎𝐅𝐂 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐌𝐄𝐍𝐓. 💗
+> © 𝐌𝐑 𝙏𝙃𝘼𝙍𝙐𝙒𝘼 𝐎𝐅𝐂 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐌𝐄𝐍𝐓. 💗
         `.trim();
     },
     REACTMENU:"🧚‍♂️⃟🩵 © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 𝗥𝗘𝗔𝗖𝗧𝗜𝗢𝗡 𝗠𝗘𝗡𝗨 🧚‍♂️⃟🩵",
@@ -165,7 +161,7 @@ Twitter URL: ${q}
     },
     CINESUBZ:function (title,imdbRate,date,country,duration) {
         return `
-🎬 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗫ᴾᴿᴼ 𝗖𝗜𝗡𝗘𝗠𝗔 🎥  
+🎬 𝙵𝙸𝙻𝙼 𝚆𝙾𝚁𝙻𝙳 🎥  
 
 ✨ ${title}  
 ⭐ 𝗜𝗠𝗗𝗕 𝗥𝗮𝘁𝗶𝗻𝗴:${imdbRate}  
@@ -183,7 +179,7 @@ Twitter URL: ${q}
     },
     CINETVSHOWALLDL: function (title,releaseDate,network) {
         return `
-🎬 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗫ᴾᴿᴼ 𝗖𝗜𝗡𝗘𝗠𝗔 🎥 
+🎬 𝙵𝙸𝙻𝙼 𝚆𝙾𝚁𝙻𝙳 🎥 
 
 ✨TITLE: ${title}
 ✨RELESE DATA: ${releaseDate}
@@ -192,7 +188,7 @@ Twitter URL: ${q}
     },
     SIMNHALAMOVIE: function (title) {
         return`
-🎬 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗫ᴾᴿᴼ 𝗖𝗜𝗡𝗘𝗠𝗔 🎥  
+🎬 𝙵𝙸𝙻𝙼 𝚆𝙾𝚁𝙻𝙳 🎥  
 
 ✨ 🎥  ${title}     
         `.trim();
@@ -209,7 +205,7 @@ Twitter URL: ${q}
     },
     ANIMEMOVIE: function (title,releaseDate,country,duration){
         return`
-🎬 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗫ᴾᴿᴼ 𝗖𝗜𝗡𝗘𝗠𝗔 🎥  
+🎬 𝙵𝙸𝙻𝙼 𝚆𝙾𝚁𝙻𝙳 🎥  
     
 ✨ ${title} 
 📅 𝗥𝗲𝗹𝗲𝗮𝘀𝗲 𝗗𝗮𝘁𝗲:${releaseDate}  
@@ -229,7 +225,7 @@ Twitter URL: ${q}
     },
     ADULTMOVIE: function (title,rating,description){
         return`
-🎬 *𝗤𝗨𝗘𝗘𝗡 𝗔𝗡𝗝𝗨 𝗫ᴾᴿᴼ 𝗖𝗜𝗡𝗘𝗠𝗔* 🎥
+🎬 *𝙵𝙸𝙻𝙼 𝚆𝙾𝚁𝙻𝙳* 🎥
 ──────────────────
 ✨ *Title:* ${title}
 ⭐ *Rating:* ${rating}
@@ -242,7 +238,7 @@ ${description}
     },
     ANIMOMOVIE: function (title,description,plot){
         return`
-🎬 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗫ᴾᴿᴼ 𝗖𝗜𝗡𝗘𝗠𝗔 🎥  
+🎬 𝙵𝙸𝙻𝙼 𝚆𝙾𝚁𝙻𝙳🎥  
       
 ✨ ${title}  
 ⭐ Description:${description} 
@@ -253,7 +249,7 @@ ${description}
 //=====================youtube===========================================
     SONG: function (data){
         return`
-⫷⦁[ * '-'_꩜ 𝙌𝙐𝙀𝙀𝙉 𝘼𝙉𝙅𝙐 𝙎𝙊𝙉𝙂 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝙍 ꩜_'-' * ]⦁⫸
+⫷⦁[ * '-'_꩜ 𝗧𝗛𝗔𝗥𝗨𝗪𝗔 𝙎𝙊𝙉𝙂 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝙍 ꩜_'-' * ]⦁⫸
     
 🎵 *Song Found!* 
     
@@ -265,7 +261,7 @@ ${description}
     
 🎧 *Enjoy the music brought to you by* *Queen Anju Bot*! 
     
-> *Created with ❤️ by Janith Rashmika* 
+> *Created with ❤️ by THARUWA* 
         `.trim();
     },
     YTMP3: function (data){
@@ -283,7 +279,7 @@ ${description}
     },
     VIDEO: function (data){
         return`
-⫷⦁[ * '-'_꩜ 𝙌𝙐𝙀𝙀𝙉 𝘼𝙉𝙅𝙐 𝙑𝙄𝘿𝙀𝙊 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝙍 ꩜_'-' * ]⦁⫸ 
+⫷⦁[ * '-'_꩜ 𝗧𝗛𝗔𝗥𝗨𝗪𝗔 𝙑𝙄𝘿𝙀𝙊 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝙍 ꩜_'-' * ]⦁⫸ 
 
 🎥 *Video Found!* 
     
@@ -295,7 +291,7 @@ ${description}
     
 🎬 *Enjoy the video brought to you by* *Queen Anju Bot*! 
     
-> *Created with ❤️ by Janith Rashmika* 
+> *Created with ❤️ by THARUSHA* 
         `.trim();
     },
     YTMP4: function (data){
@@ -308,7 +304,7 @@ ${description}
 ➥ *Uploaded On:* ${data.ago} 
 ➥ *Link:* ${data.url} 
 
-🎬 *Enjoy the video brought to you by Queen Anju Bot!* 
+🎬 *Enjoy the video brought to you by 𝚃𝙷𝙰𝚁𝚄𝚆𝙰 Bot!* 
         `.trim();
     },
 };
